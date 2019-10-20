@@ -5,14 +5,14 @@ Quand tu es sur la racine :
 
 ![image](https://user-images.githubusercontent.com/5928197/67158285-819f6000-f336-11e9-833d-b3f2bb7ab37d.png)
 
-Tu dois afficher, avec un message d'erreur (Invalid Credentials ) si le login et le mot de passe ne sont pas correcte :
+Tu dois afficher le formulaire ci-dessous, avec un message d'erreur (Invalid Credentials ) si le login et le mot de passe ne sont pas correcte :
 
 ![image](https://user-images.githubusercontent.com/5928197/67158275-5ddc1a00-f336-11e9-8c74-85a3144ce1aa.png)
 
 
 ## Etape 2 :
 
-Quand tu clique sur Login, tu dois faire une redirection vers :
+Quand tu clique sur Login, tu dois faire une redirection vers welcome, si le login et le mot de passe sont correcte :
 
 ![image](https://user-images.githubusercontent.com/5928197/67158349-46e9f780-f337-11e9-930f-a05e8c351720.png)
 
