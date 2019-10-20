@@ -10,3 +10,8 @@ Tu dois afficher :
 ![image](https://user-images.githubusercontent.com/5928197/67158275-5ddc1a00-f336-11e9-8c74-85a3144ce1aa.png)
 
 
+## Etape 2 :
+
+Quand tu clique sur Login, tu dois afficher la page d'accueil:
+
+![image](https://user-images.githubusercontent.com/5928197/67158349-46e9f780-f337-11e9-930f-a05e8c351720.png)
