@@ -45,3 +45,7 @@ il doit t'afficher un message d'erreur :
 
 ![image](https://user-images.githubusercontent.com/5928197/67158443-5cabec80-f338-11e9-8df7-5ebf3e883d12.png)
 
+## Etape 4 :
+Affichez le nom siaise dans le formulaire de l'authentification :
+
+![image](https://user-images.githubusercontent.com/5928197/67238678-de416e80-f44d-11e9-99f3-bcbe20a22040.png)
