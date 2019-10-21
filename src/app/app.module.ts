@@ -7,20 +7,22 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ErrorComponent } from './error/error.component';
+import { ListTodosComponent } from './list-todos/list-todos.component';
 
 @NgModule({
-  declarations: [
+  declarations: [//Déclaration des composants de l'application
     AppComponent,
     WelcomeComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    ListTodosComponent
   ],
-  imports: [
+  imports: [//Import des modules Angular ou nos propres modules
     BrowserModule,
     FormsModule,
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [],//Référence les services, pipes et directives
+  bootstrap: [AppComponent]//Le point d'entrée de l'application
 })
 export class AppModule { }

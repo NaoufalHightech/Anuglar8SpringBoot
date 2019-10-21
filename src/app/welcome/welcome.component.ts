@@ -9,10 +9,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class WelcomeComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute) { }
+  name: String = '';
+  constructor(private route: ActivatedRoute) { }//Injection de l'objet ActivatedRoute pour la récupération des donnèes du routage.
 
   ngOnInit() {
-    console.log(this.route.snapshot.paramMap.get('id'));
+    //console.log(this.route.snapshot.paramMap.get('id'));
+    this.name = this.route.snapshot.params['id'];
   }
 
 }
