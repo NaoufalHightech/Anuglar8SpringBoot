@@ -20,8 +20,8 @@ export class LoginComponent implements OnInit {
 
   login() {
     if (this.username === 'naoufal' && this.password === 'test') {
-      //Je veux naviguer vers 'welcome'
-      this.router.navigate(['welcome', this.username]);
+      //Je veux naviguer vers 'welcome', URL Dynamic on peut utiliser <a [routerLink]="['welcome', this.username]">
+      this.router.navigate(['welcome', this.username]);// Injection de l'objet router au sein du composant LoginComponent
     } else {
       this.invalidLogin = true;
     }
