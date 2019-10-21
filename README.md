@@ -1,5 +1,16 @@
 # Anuglar8SpringBoot
 
+# Commande Angular CLI :
+Créer un nouveau projet: ng new
+
+Composant : ng generate component <nom du composant> équivalent à : ng g c
+Pipe : ng generate pipe <nom du pipe>
+Directive : ng generate directive <nom de la directive>
+Service : ng generate service <nom du service>
+Module : ng generate module <nom du module>
+Guard : ng generate guard <nom du guard>
+
+
 ## Etape 1 :
 Quand tu es sur la racine :
 
